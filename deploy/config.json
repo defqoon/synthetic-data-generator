@@ -1,0 +1,10 @@
+{
+  "BASE_DIR": "/data/",
+  "RESOLUTION_X": 1024,
+  "RESOLUTION_Y": 512,
+  "DEPTH_MAP_DIR": "/data/depth_maps/",
+  "IMAGES_DIR": "/data/images/",
+  "TILE_SIZE": 256,
+  "N_SAMPLES": 1,
+  "DATASET_NAME": "sphere"
+}

@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  synthetic-data-generator:
+    build: ../
+    image: synthetic-data-generator
+    container_name: synthetic-data-generator
+    volumes:
+      - /data/:/root/data/
+    environment:
+      - CONFIG_PATH=/root/config.json
+    logging:
+      driver: journald
+      options:
+        tag: "synthetic-data-generator"
+    restart: always
